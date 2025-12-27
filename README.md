@@ -187,3 +187,79 @@ samples, guidance on mobile development, and a full API reference.
               Get.lazyPut<ControllerX>(() => ControllerX());
               Get.put<Service>(()=> Api());
             }),
+
+# web服务器
+    dart:io 内置 HTTP 服务器
+    shelf 插件
+    原生实现 channel 通信
+
+# webView js交互
+    webview_flutter 插件
+# DNS劫持处理
+    自定义httpClientAdapter
+    response.header 解密异常字段、证书变化等    
+
+# 请求加密
+    证书相关 dio设置 httpClientAdapter
+    定义拦截器 去处理 请求加密和响应解密
+
+
+# ios、Android底部小白条
+    SafeArea
+    SystemChrome
+```dart
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge); // 边缘到边缘模式
+  SystemChrome.setSystemUIOverlayStyle(
+    SystemUiOverlayStyle(
+      systemNavigationBarColor: Colors.transparent, // 导航栏透明
+      systemNavigationBarIconBrightness: Brightness.light, // 导航栏图标亮度
+      statusBarColor: Colors.transparent, // 状态栏透明
+      statusBarIconBrightness: Brightness.light, // 状态栏图标亮度
+    ),
+  );
+```
+    MediaQuery
+
+# flutter 图表手势处理
+
+# flutter 本地存储
+    shared_preferences 插件
+    path_provider + dart:io 存储到本地
+    sqflite 数据库存储
+
+# flutter 项目过程中的难点
+
+# flutter 响应式文字大小
+    类似多语言 封装全局刷新
+    MediaQurty
+    flutter_screenutil 插件
+
+# flutter 缓存
+
+> flutter xxx方案。面试遇到提问该问题 该如何回答 想考察的是哪一方面
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
